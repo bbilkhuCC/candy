@@ -1,0 +1,84 @@
+<!--
+PROG8170 - Software Quality Assurance Techniques
+Created by: Baljeet Bilkhu
+
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Candy Store</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/starter-template/">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pcmystyle.css">
+
+    <!--    scripts-->
+    <script src="js/lib/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/lib/jquery.validate.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+
+    <!--   MY scripts-->
+    <script src="js/jsfile.js"></script>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1003.0" data-gr-ext-installed="">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Candy Store</a>
+
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="container" style="padding-top: 5em">
+        <h1 style="text-align: center;">Candy Store</h1>
+        <div class="m-4">
+            <p>Welcome to the Candy Store. <br>This app will allow you to purchase candy (which will be sent through snail mail).</p>
+            <p>Each piece of candy is $0.25 and can only be purchased by using nickels ($0.05) and/or dimes ($0.10)</p>
+        </div>
+        <form id="registrationForm">
+            <div class="form-group">
+                <div class="card" style="">
+                    <div class="card-header">
+                        <h2>Candy</h2>
+                    </div>
+
+                    <div style="padding: 10px">
+                        <div class="form-group">
+                            <label for="numberOfNickels">Input number of Nickels</label>
+                            <input type="number" class="form-control" id="numberOfNickels" name="numberOfNickels" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfDimes">Input number of Dimes</label>
+                            <input type="number" class="form-control" id="numberOfDimes" name="numberOfDimes" min="0">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <a type="button" class="btn btn-primary" id="btnSubmit" onclick="Register()" style="color: white">Submit</a>
+            <br><br>
+            <small>&copy; 2022 Baljeet Bilkhu</small>
+        </form>
+
+
+
+    </main>
+</body>
+
+
+</html>
